@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import MyComponent from './components/components'
+import {MyComponent} from './components/components'
 
-function App() {
-console.log(MyComponent());
+ function App() {
   return (
     <div className="App">
-      <MyComponent />
+      <MyComponent  name='luacas' age='25'/>
     </div>
   )
 }
+
 
 export default App
