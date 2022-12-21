@@ -1,15 +1,7 @@
-
-
-export function MyComponent(props) {
-    //    const name = string;
-    //    const age = number;
-    const {name , age } = props
-    return (
-        <div>{age} {name}</div>
-    )
+export default function MyComponent(name, age) {
+    name = <h1>Lucas</h1>
+    age = <h1>25</h1>
+return (
+    <div>{name} {age}</div>
+)
 };
-
-
-
-
-export default MyComponent
