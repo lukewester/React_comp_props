@@ -1,13 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
-import MyComponent from './components/components'
+import Person from './components/components'
 
 function App() {
-console.log(MyComponent());
   return (
     <div className="App">
-      <MyComponent />
+      <Person name="lucas" age={25}/>
     </div>
   )
 }
